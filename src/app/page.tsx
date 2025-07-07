@@ -80,7 +80,7 @@ export default function Home() {
               <ScrollAnimationWrapper delay={200}>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <Button asChild size="lg" className="w-full sm:w-auto">
-                    <Link href="https://content-flow-murex.vercel.app/">Explore Our Tools</Link>
+                    <Link href="#tools">Explore Our Tools</Link>
                   </Button>
                   <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
                     <Link href="https://chat.whatsapp.com/ESI9d1MyJ6NE1Pa3YHQ7GR">Join the Revolution</Link>
@@ -116,7 +116,7 @@ export default function Home() {
         </section>
 
         {/* ContentFlow Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section id="tools" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <ScrollAnimationWrapper className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-3">
