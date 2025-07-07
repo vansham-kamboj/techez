@@ -80,7 +80,7 @@ export default function Home() {
               <ScrollAnimationWrapper delay={200}>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <Button asChild size="lg" className="w-full sm:w-auto">
-                    <Link href="#">Explore Our Tools</Link>
+                    <Link href="https://content-flow-murex.vercel.app/">Explore Our Tools</Link>
                   </Button>
                   <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
                     <Link href="https://chat.whatsapp.com/ESI9d1MyJ6NE1Pa3YHQ7GR">Join the Revolution</Link>
@@ -106,7 +106,7 @@ export default function Home() {
                   creators, founders, and professionals their edge.
                 </p>
               </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper className="flex flex-col justify-center space-y-4" delay={200}>
+              <ScrollAnimationWrapper className="flex flex-col justify-center z-index-10 space-y-4" delay={200}>
                 <blockquote className="border-l-4 border-primary pl-4 italic text-lg font-semibold">
                   "People build hustle. We build the machine that powers it."
                 </blockquote>
@@ -259,7 +259,7 @@ export default function Home() {
               <ScrollAnimationWrapper delay={200}>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <Button asChild size="lg" className="w-full sm:w-auto">
-                    <Link href="#">Start Creating</Link>
+                    <Link href="https://content-flow-murex.vercel.app/">Start Creating</Link>
                   </Button>
                   <Button asChild size="lg" variant="secondary" className="w-full sm:w-auto">
                     <Link href="https://chat.whatsapp.com/ESI9d1MyJ6NE1Pa3YHQ7GR">Join Our Ecosystem</Link>
