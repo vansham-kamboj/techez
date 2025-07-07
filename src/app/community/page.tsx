@@ -43,27 +43,27 @@ const communityMembers = [
 
 const events = [
   {
-    name: 'Community Kick-off: Details Coming Soon',
+    name: 'Details Coming Soon',
     location: 'To Be Announced',
     format: 'Stay Tuned!',
     date: 'Launching Soon',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg?semt=ais_hybrid&w=740',
     aiHint: 'community event placeholder',
   },
   {
-    name: 'First Workshop: Details Coming Soon',
+    name: 'Details Coming Soon',
     location: 'To Be Announced',
     format: 'Stay Tuned!',
     date: 'Launching Soon',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg?semt=ais_hybrid&w=740',
     aiHint: 'workshop placeholder',
   },
   {
-    name: 'Fireside Chat: Details Coming Soon',
+    name: 'Details Coming Soon',
     location: 'To Be Announced',
     format: 'Stay Tuned!',
     date: 'Launching Soon',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg?semt=ais_hybrid&w=740',
     aiHint: 'fireside chat placeholder',
   },
 ];
