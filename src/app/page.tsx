@@ -196,7 +196,7 @@ export default function Home() {
               {[
                 { title: 'AI First', icon: <Cog className="h-8 w-8 text-primary" />, description: 'Tools powered by intelligent automation.' },
                 { title: 'Bold Vision', icon: <Flame className="h-8 w-8 text-primary" />, description: 'We don\'t follow trends. We build them.' },
-                { title: 'Creator-Centric', icon: <Puzzle className="h-8 w-8 text-primary" />, description: 'We help you grow — personally and professionally.' },
+                { title: 'Growth-Centric', icon: <Puzzle className="h-8 w-8 text-primary" />, description: 'We help you grow — personally and professionally.' },
                 { title: 'Community-Backed', icon: <Users className="h-8 w-8 text-primary" />, description: 'Your growth journey isn\'t solo anymore.' },
               ].map((card, index) => (
                 <ScrollAnimationWrapper key={card.title} delay={index * 100}>
