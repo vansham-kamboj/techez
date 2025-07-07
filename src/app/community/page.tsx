@@ -47,7 +47,7 @@ const events = [
     location: 'To Be Announced',
     format: 'Stay Tuned!',
     date: 'Launching Soon',
-    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg?semt=ais_hybrid&w=740',
+    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg',
     aiHint: 'community event placeholder',
   },
   {
@@ -55,7 +55,7 @@ const events = [
     location: 'To Be Announced',
     format: 'Stay Tuned!',
     date: 'Launching Soon',
-    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg?semt=ais_hybrid&w=740',
+    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg',
     aiHint: 'workshop placeholder',
   },
   {
@@ -63,7 +63,7 @@ const events = [
     location: 'To Be Announced',
     format: 'Stay Tuned!',
     date: 'Launching Soon',
-    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg?semt=ais_hybrid&w=740',
+    image: 'https://img.freepik.com/free-psd/cartoon-question-mark-isolated_23-2151568565.jpg',
     aiHint: 'fireside chat placeholder',
   },
 ];
