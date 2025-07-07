@@ -6,8 +6,59 @@ import SiteHeader from '@/components/site-header';
 import SiteFooter from '@/components/site-footer';
 
 export const metadata: Metadata = {
-  title: 'Techez',
-  description: 'We build future tools for the future generation.',
+  title: {
+    default: 'Techez - AI-Powered Tools & Digital Services',
+    template: `%s | Techez`,
+  },
+  description:
+    'Techez is an AI automation company building future-first tools and providing digital services to empower creators, founders, and professionals.',
+  keywords: [
+    'AI automation',
+    'content creation',
+    'digital marketing',
+    'web development',
+    'UI/UX design',
+    'startup solutions',
+    'Techez',
+    'Techies Community',
+  ],
+  authors: [{ name: 'Techez' }],
+  creator: 'Techez',
+  openGraph: {
+    title: 'Techez - AI-Powered Tools & Digital Services',
+    description:
+      'We build future tools for the future generation. AI-powered content automation, personal branding, and custom digital solutions.',
+    url: 'https://your-app-url.com',
+    siteName: 'Techez',
+    images: [
+      {
+        url: 'https://placehold.co/1200x630.png',
+        width: 1200,
+        height: 630,
+        alt: 'Techez - Building Future Tools',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Techez - AI-Powered Tools & Digital Services',
+    description:
+      'We build future tools for the future generation. AI-powered content automation, personal branding, and custom digital solutions.',
+    images: ['https://placehold.co/1200x630.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
