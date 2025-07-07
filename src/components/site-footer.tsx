@@ -63,7 +63,7 @@ export default function SiteFooter() {
                 href="tel:+918320495754"
                 className="font-medium hover:underline"
               >
-                +91 8320495754
+                +91 83204 95754
               </a>
             </div>
             <div className="flex items-center gap-3">
