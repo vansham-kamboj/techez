@@ -7,7 +7,7 @@ import SiteFooter from '@/components/site-footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Techez - AI-Powered Tools & Digital Services',
+    default: 'Techez - AI-Powered Tools & Digital Growth',
     template: `%s | Techez`,
   },
   description:
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: 'Techez - AI-Powered Tools & Digital Services',
     description:
       'We build future tools for the future generation. AI-powered content automation, personal branding, and custom digital solutions.',
-    url: 'https://your-app-url.com',
+    url: 'https://www.techez.in/',
     siteName: 'Techez',
     images: [
       {
