@@ -73,6 +73,9 @@ export default function SiteHeader() {
                     >
                       Services
                     </Link>
+                    </SheetClose>
+
+                    <SheetClose asChild>
                     <Link
                       href="/community"
                       className="text-muted-foreground hover:text-foreground"
