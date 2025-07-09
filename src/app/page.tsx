@@ -142,7 +142,7 @@ export default function Home() {
         </section>
 
         {/* Custom Services Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+        <section id='services' className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
           <div className="container px-4 md:px-6">
             <ScrollAnimationWrapper className="flex flex-col items-center space-y-6 text-center">
               <div className="space-y-4">
