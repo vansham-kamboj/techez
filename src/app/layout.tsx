@@ -7,7 +7,7 @@ import SiteFooter from '@/components/site-footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Techez - AI-Powered Tools & Digital Growth',
+    default: 'Techez',
     template: `%s | Techez`,
   },
   description:
@@ -25,16 +25,14 @@ export const metadata: Metadata = {
   authors: [{ name: 'Techez' }],
   creator: 'Techez',
   openGraph: {
-    title: 'Techez - AI-Powered Tools & Digital Services',
+    title: 'Techez',
     description:
       'We build future tools for the future generation. AI-powered content automation, personal branding, and custom digital solutions.',
     url: 'https://www.techez.in/',
     siteName: 'Techez',
     images: [
       {
-        url: 'https://placehold.co/1200x630.png',
-        width: 1200,
-        height: 630,
+        url: '/images/TechezLogo.png',
         alt: 'Techez - Building Future Tools',
       },
     ],
@@ -46,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Techez - AI-Powered Tools & Digital Services',
     description:
       'We build future tools for the future generation. AI-powered content automation, personal branding, and custom digital solutions.',
-    images: ['https://placehold.co/1200x630.png'],
+    images: ['/images/TechezLogo.png'],
   },
   robots: {
     index: true,
