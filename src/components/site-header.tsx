@@ -23,6 +23,12 @@ export default function SiteHeader() {
           {/* Desktop Navigation */}
           <nav className="hidden items-center gap-6 text-sm md:flex">
             <Link
+              href="/#services"
+              className="font-medium text-foreground/60 transition-colors hover:text-foreground/80"
+            >
+              Services
+            </Link>
+            <Link
               href="/community"
               className="font-medium text-foreground/60 transition-colors hover:text-foreground/80"
             >
@@ -61,6 +67,12 @@ export default function SiteHeader() {
                     </span>
                   </Link>
                   <SheetClose asChild>
+                    <Link
+                      href="/#services"
+                      className="text-muted-foreground hover:text-foreground"
+                    >
+                      Services
+                    </Link>
                     <Link
                       href="/community"
                       className="text-muted-foreground hover:text-foreground"
