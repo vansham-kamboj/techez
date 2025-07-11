@@ -133,7 +133,7 @@ export default function PartnerPage() {
                                 <FormControl>
                                   <Input
                                     type="email"
-                                    placeholder="your.email@example.com"
+                                    placeholder="your@email.com"
                                     {...field}
                                   />
                                 </FormControl>
@@ -229,7 +229,7 @@ export default function PartnerPage() {
                       href="mailto:contact.techez@gmail.com"
                       className="font-medium hover:underline"
                     >
-                      contact.techez@gmail.com
+                      partner.techez@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
