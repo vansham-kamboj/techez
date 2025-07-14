@@ -92,3 +92,6 @@
 .minecraftFont{
     font-family: 'Minecraft', monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
