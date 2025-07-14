@@ -23,7 +23,7 @@ export default function SiteHeader() {
           {/* Desktop Navigation */}
           <nav className="hidden items-center gap-6 text-sm md:flex">
             <Link
-              href="/#services" scroll={false}
+              href="/#services" scroll={true}
               className="font-medium text-foreground/60 transition-colors hover:text-foreground/80"
             >
               Services
