@@ -8,7 +8,7 @@ const footerNavs = [
 ];
 
 const socialLinks = [
-  { name: 'linkedin', href: '#', icon: <Linkedin className="h-6 w-6" /> },
+  { name: 'linkedin', href: 'https://www.linkedin.com/company/techez-in', icon: <Linkedin className="h-6 w-6" /> },
   { name: 'twitter', href: 'https://x.com/techez_in', icon: <Twitter className="h-6 w-6" /> },
   { name: 'instagram', href: 'https://www.instagram.com/techez.in/', icon: <Instagram className="h-6 w-6" /> },
 ];
