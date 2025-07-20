@@ -1,0 +1,57 @@
+import Link from 'next/link';
+import {
+  Cog,
+  Flame,
+  Puzzle,
+  Users,
+  ArrowRight,
+  Globe,
+  Paintbrush,
+  Smartphone,
+  Megaphone,
+  Network,
+  Bot,
+} from 'lucide-react';
+
+import { Button } from '@/components/ui/button';
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
+import TechFloatingElements from '@/components/TechFloatingElements';
+import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper';
+
+const services = [
+  {
+    icon: <Globe className="h-8 w-8 text-primary" />,
+    title: 'Website Development',
+    description: 'Lightning-fast, responsive, and SEO-friendly websites.',
+  },
+  {
+    icon: <Paintbrush className="h-8 w-8 text-primary" />,
+    title: 'UI/UX Design',
+    description: 'Designs that look good and feel better.',
+  },
+  {
+    icon: <Smartphone className="h-8 w-8 text-primary" />,
+    title: 'Mobile App Development',
+    description: 'Android, iOS, cross-platform — done right.',
+  },
+  {
+    icon: <Megaphone className="h-8 w-8 text-primary" />,
+    title: 'Startup Marketing & Branding',
+    description: 'Full-stack digital marketing from 0 to brand.',
+  },
+  {
+    icon: <Network className="h-8 w-8 text-primary" />,
+    title: 'Digital Presence Building',
+    description: 'Build your brand's identity across platforms.',
+  },
+  {
+    icon: <Bot className="h-8 w-8 text-primary" />,
+    title: 'Custom AI Solutions',
+    description: 'Bespoke AI tools that transform your workflow.',
+  },
+];
