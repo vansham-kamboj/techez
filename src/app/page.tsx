@@ -88,7 +88,7 @@ export default function Home() {
               <ScrollAnimationWrapper delay={200}>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <Button asChild size="lg" className="w-full sm:w-auto">
-                    <Link href="#">Explore Our Tools</Link>
+                    <Link href="/#tools">Explore Our Tools</Link>
                   </Button>
                   <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
                     <Link href="https://chat.whatsapp.com/ESI9d1MyJ6NE1Pa3YHQ7GR">Join the Revolution</Link>
