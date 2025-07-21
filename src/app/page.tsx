@@ -47,11 +47,6 @@ const services = [
     description: 'Android, iOS, cross-platform — done right.',
   },
   {
-    icon: <Megaphone className="h-8 w-8 text-primary" />,
-    title: 'Startup Marketing & Branding',
-    description: 'Full-stack digital marketing from 0 to brand.',
-  },
-  {
     icon: <Network className="h-8 w-8 text-primary" />,
     title: 'Digital Presence Building',
     description: 'Build your brand’s identity across platforms.',
